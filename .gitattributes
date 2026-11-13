@@ -1,0 +1,4 @@
+* text=auto eol=lf
+/LICENSE -text
+/upstream/haloflux/LICENSE -text
+/upstream/haloflux/lab.html -text

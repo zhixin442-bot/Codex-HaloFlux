@@ -1,0 +1,21 @@
+.app > header {
+  grid-template-columns: minmax(min(405px, 34vw), 1.7fr) repeat(5, minmax(0, 1fr));
+}
+header .brand h1 { font-size: clamp(11px, 1.45vw, 21px); }
+
+#activity {
+  position: absolute;
+  z-index: 3;
+  top: 12px;
+  left: 16px;
+  max-width: calc(100% - 32px);
+  padding: 8px 10px;
+  border: 1px solid #3a3e46;
+  border-left-color: #98e0cf;
+  background: rgba(8, 9, 11, .9);
+  color: #e8e9ee;
+  font: 11px/1.6 Consolas, "Microsoft YaHei UI", monospace;
+}
+
+.activity-source { color: #98e0cf; letter-spacing: .08em; }
+#activity-event { color: #acb0bb; }
